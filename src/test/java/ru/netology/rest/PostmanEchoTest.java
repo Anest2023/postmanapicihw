@@ -10,7 +10,7 @@ class PostmanEchoTest {
     @Test
 
     void shouldReturnSendData() {
-        String text = "Good evening!";
+        String text = "Good day.";
         given()
                 .baseUri("https://postman-echo.com")
                 .body(text)
